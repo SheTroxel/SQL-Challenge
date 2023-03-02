@@ -11,7 +11,7 @@ In reviewing the CVS files, I've put together an Entity Relationship Diagram to 
 ![ERD image](https://github.com/SheTroxel/SQL-Challenge/blob/main/pewlett_hackard_employeeDB_Schema.png)
 
 ## Data Analysis
-After tables were created and CSV files imported into Postgres SQL, I was able to provide the following reports.
+After tables were created and CSV files imported into Postgres SQL, I was able to run queries to meet the following requests: 
 
 1. List the employee number, last name, first name, sex, and salary of each employee.
 2. List the first name, last name, and hire date for the employees who were hired in 1986.
