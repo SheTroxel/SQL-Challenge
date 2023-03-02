@@ -1,17 +1,20 @@
 # SQL-Challenge
-As part of the SQL challenge homework were provided with the following scenario:
+As part of the SQL challenge homework I was provided with the following scenario:
 
 
 It’s been two weeks since you were hired as a new data engineer at Pewlett Hackard (a fictional company). Your first major task is to do a research project about people whom the company employed during the 1980s and 1990s. All that remains of the employee database from that period are six CSV files.
 For this project, you’ll design the tables to hold the data from the CSV files, import the CSV files into a SQL database, and then answer questions about the data. That is, you’ll perform data modeling, data engineering, and data analysis, respectively.
 
 ## Reviewing & Organizing the Data
-In reviewing the CVS files, I've put together an Entity Relationship Diagram to illustrate the different files and to assist with my queries. The Department_Employees.CSV file
+In reviewing the CVS files provided here  ![starter_files](https://github.com/SheTroxel/SQL-Challenge/tree/main/m9-starter-code) , I've put together an Entity Relationship Diagram to illustrate the different files and to assist with my queries. 
 
 ![ERD image](https://github.com/SheTroxel/SQL-Challenge/blob/main/pewlett_hackard_employeeDB_Schema.png)
 
+From this diagram, I was able to set up the schema in Postgres. ![Schema_file](https://github.com/SheTroxel/SQL-Challenge/blob/main/employee_db_schema.sql)
 ## Data Analysis
 After tables were created and CSV files imported into Postgres SQL, I was able to run queries to meet the following requests: 
+
+PostgresSQL Querie file ![Queries](https://github.com/SheTroxel/SQL-Challenge/blob/main/all_emp_queries.sql)
 
 1. List the employee number, last name, first name, sex, and salary of each employee.
 Data has been provided in a CSV file located here: 
