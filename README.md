@@ -14,11 +14,41 @@ In reviewing the CVS files, I've put together an Entity Relationship Diagram to 
 After tables were created and CSV files imported into Postgres SQL, I was able to run queries to meet the following requests: 
 
 1. List the employee number, last name, first name, sex, and salary of each employee.
-2. List the first name, last name, and hire date for the employees who were hired in 1986.
-3. List the manager of each department along with their department number, department name, employee number, last name, and first name.
-4. List the department number for each employee along with that employee’s employee number, last name, first name, and department name.
-5. List first name, last name, and sex of each employee whose first name is Hercules and whose last name begins with the letter B.
-6. List each employee in the Sales department, including their employee number, last name, and first name.
-7. List each employee in the Sales and Development departments, including their employee number, last name, first name, and department name.
-8. List the frequency counts, in descending order, of all the employee last names (that is, how many employees share each last name).
+Data has been provided in a CSV file located here: 
 
+![Employees](https://github.com/SheTroxel/SQL-Challenge/blob/main/data_files/employee_list_one.csv)
+
+2. List the first name, last name, and hire date for the employees who were hired in 1986.
+Data has been provided in a CSV file located here: 
+
+![Employees Hired in 1986](https://github.com/SheTroxel/SQL-Challenge/blob/main/data_files/hired_1986.csv)
+
+3. List the manager of each department along with their department number, department name, employee number, last name, and first name.
+Data has been provided in a CSV file located here:
+
+![department managers](https://github.com/SheTroxel/SQL-Challenge/blob/main/data_files/department_mgrs.csv)
+
+4. List the department number for each employee along with that employee’s employee number, last name, first name, and department name.
+Data has been provided in a CSV file located here:
+
+![Employees by Department Number](https://raw.githubusercontent.com/SheTroxel/SQL-Challenge/main/data_files/department_no_employees.csv)
+
+5. List first name, last name, and sex of each employee whose first name is Hercules and whose last name begins with the letter B.
+Data has been provided in a CSV file located here:
+
+![Employees_named Hercules](https://github.com/SheTroxel/SQL-Challenge/blob/main/data_files/Hercules_and_Bs.csv)
+
+6. List each employee in the Sales department, including their employee number, last name, and first name.
+Data has been provided in a CSV file located here:
+
+![sales dept employees](https://github.com/SheTroxel/SQL-Challenge/blob/main/data_files/sales_dept_employees.csv)
+
+7. List each employee in the Sales and Development departments, including their employee number, last name, first name, and department name.
+Data has been provided in a CSV file located here:
+
+![sales and development](https://raw.githubusercontent.com/SheTroxel/SQL-Challenge/main/data_files/sales_and_development.csv)
+
+10. List the frequency counts, in descending order, of all the employee last names (that is, how many employees share each last name).
+Data has been provided in a CSV file located here:
+
+![Name frequency counts](https://github.com/SheTroxel/SQL-Challenge/blob/main/data_files/frequency_counts.csv)
